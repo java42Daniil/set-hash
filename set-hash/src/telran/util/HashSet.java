@@ -86,6 +86,7 @@ public class HashSet<T> extends AbstractSet<T> {
 		//TODO 
 		return new HashSetIterator<T>();
 	}
+// V.R. Looks good. All tests are also executed. Perfect!
 	private class HashSetIterator<T> implements Iterator<T> {
         //TODO iterator required fields
 		    Iterator<T> backetIterators[];
